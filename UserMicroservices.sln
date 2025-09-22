@@ -1,12 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroservices.AppHost", "UserMicroservices.AppHost\UserMicroservices.AppHost.csproj", "{F4CF058B-DFEF-42F4-A8F9-35FA893C13FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroservices.ServiceDefaults", "UserMicroservices.ServiceDefaults\UserMicroservices.ServiceDefaults.csproj", "{A6501659-D825-4ADD-90A2-F9FECF3AEAC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.API", "Users.API\Users.API.csproj", "{CE86CD8A-6205-499E-89B6-51362FC05989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORE", "CORE\CORE.csproj", "{A5CEBBB2-C628-4DED-8B95-496AE2CCAC0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{CE86CD8A-6205-499E-89B6-51362FC05989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE86CD8A-6205-499E-89B6-51362FC05989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE86CD8A-6205-499E-89B6-51362FC05989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CEBBB2-C628-4DED-8B95-496AE2CCAC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CEBBB2-C628-4DED-8B95-496AE2CCAC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CEBBB2-C628-4DED-8B95-496AE2CCAC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CEBBB2-C628-4DED-8B95-496AE2CCAC0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
